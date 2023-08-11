@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-print(bytes(list(range(65, 91))).decode('utf-8'))
+import string
+__import__('os').write(1, string.ascii_uppercase.encode())
