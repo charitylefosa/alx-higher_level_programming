@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-"""imports def add and prints result"""
-from add_0 import add
-
 
 if __name__ == "__main__":
+
+    from add_0 import add
 
     a = 1
     b = 2
