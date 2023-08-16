@@ -14,9 +14,9 @@ def roman_to_int(roman_string):
 
     prev_v = 0
     output = 0
-    for char in roman_string[::-1]:
+    for char in reversed(roman_string):
         v = roman_numerals.get(char, 0)
-        if v > prev_v:
+        if v >= prev_v:
             output += v
         else:
             output -= v
