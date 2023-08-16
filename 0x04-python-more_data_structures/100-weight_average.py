@@ -2,7 +2,7 @@
 def weight_average(my_list=[]):
     """ returns the weighted average of all integers tuple """
     if not my_list:
-        return None
+        return 0
     ave = 0
     div = 0
     for num in my_list:
