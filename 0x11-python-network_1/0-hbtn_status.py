@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Fetche https://alx-intranet.hbtn.io/status"""
+"""Fetch https://alx-intranet.hbtn.io/status"""
 import urllib.request
 
 
